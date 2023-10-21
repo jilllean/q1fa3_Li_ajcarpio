@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #533220;
+}
+.profile{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.profileicon{
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+.sidenavbar{
+    border: solid #F8F1EA;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 60px;
+    height: 500px;
+    background-color: #F8F1EA;
+}
+.sidenavlinks img{
+    margin-left: 12px;
+    width: 35px;
+}
+.body{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    text-align: right;
+    margin-right: 80px;
+}
+.body h1{
+    font-size: 4em;
+    font-family: 'Rubik', sans-serif;
+    color: #F8F1EA;
+}
+.body p{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+.body a{
+    text-decoration: none;
+    display: inline-block;
+    color: #533220;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+    background-color: #F8F1EA;
+    border-radius: 25px;
+}
+.bodylink1{
+    background-color: #b99976;
+}
+.bodylink1:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+
+
+
+
+
