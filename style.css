@@ -5,7 +5,8 @@
 }
 .profile{
     margin-left: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .profileicon{
     width: 55px;
@@ -13,18 +14,22 @@
     float: left;
 }
 .sidenavbar{
-    border: solid #F8F1EA;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-top: 30px;
+
     margin-left: 20px;
     width: 60px;
-    height: 500px;
+    height: relative;
+    
+}
+.links{
     background-color: #F8F1EA;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 15px;
 }
 .sidenavlinks img{
-    margin-left: 12px;
+    margin-top: 15px;
+    margin-left: 13px;
     width: 35px;
+    background-color:#F8F1EA;
 }
 .body{
     position: absolute;
@@ -63,6 +68,7 @@
     font-size: larger;
     padding: 10px;
 }
+
 
 
 
