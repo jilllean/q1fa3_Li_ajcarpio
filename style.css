@@ -1,35 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@500&family=Poppins:wght@300&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Outfit:wght@500&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0px;
-    padding: 0px;
+}
+.homepage{
     background-color: #533220;
+    width: 100vw;
+    height: 100vh;
 }
 .profile{
     margin-left: 25px;
-    margin-top: 20px;
     margin-bottom: 50px;
+    padding-top: 15px;
 }
 .profileicon{
     width: 55px;
     height: 55px;
-    float: left;
+    margin-left: 5px;
+    position: fixed;
 }
 .sidenavbar{
-
-    margin-left: 20px;
+    margin-left: 25px;
     width: 60px;
-    height: relative;
-    
+    background-color: #F8F1EA;
+    position: fixed;
+    border: solid #F8F1EA;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 .links{
+    padding: 6px;
     background-color: #F8F1EA;
+    border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
-    border-bottom-right-radius: 15px;
 }
-.sidenavlinks img{
+.links img{
+    margin-left: 6px;
     margin-top: 15px;
-    margin-left: 13px;
     width: 35px;
     background-color:#F8F1EA;
+    
 }
 .body{
     position: absolute;
@@ -40,20 +50,21 @@
 }
 .body h1{
     font-size: 4em;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #F8F1EA;
 }
 .body p{
     margin-top: 5px;
     color: white;
     font-size: 1.5em;
+    font-family: Poppins,sans-serif;
 }
 .body a{
     text-decoration: none;
     display: inline-block;
     color: #533220;
     padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 1em;
     font-weight: bold;
     transition: .4s;
@@ -68,9 +79,105 @@
     font-size: larger;
     padding: 10px;
 }
+.studybgpage{
+    background-color: #533220;
+    width: 100vw;
+    height: 100vh;
+}
+.studybgbody{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    text-align: right;
+    margin-right: 80px;
+}
+.studybgbody img{
+    float: left;
+    width: 400px;
+    margin-right: 50px;
+}
+.studybgbody h2{
+    font-size: 4em;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
+.studybgbody h3{
+    margin-top: 5px;
+    color: #F8F1EA;
+    font-size: 1.5em;
+}
+.studybgbody p{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+.studybgbody a{
+    text-decoration: none;
+    display: inline-block;
+    color: #533220;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+    background-color: #F8F1EA;
+    border-radius: 25px;
+}
+.bodylink2{
+    background-color: #b99976;
+    font-family: Poppins, serif;
+}
+.bodylink2:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+.datapage{
+    background-color: #533220;
+    width: 100vw;
+    height: 400vh;
+}
+.datapgbody{
+    position: absolute;
+    left: 15%;
+}
+.datapgbody h2{
+    font-size: 4em;
+    font-family: 'Merriweather', serif;
+    color: #F8F1EA;
+}
 
-
-
-
-
-
+.datapgbody p{
+    margin-left: 20px;
+    margin-top: 5px;
+    color:#F8F1EA;
+    font-family: 'Poppins', sans-serif;
+}
+.pics{
+    margin-left: 150px;
+}
+.numstudentspic img{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+.numfacultypic img{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+.facultystudentpic img{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+.progresschart img{
+    width: 700px;
+    height: 400px;
+    margin: 10px;
+}
+.standardchart img{
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+}
